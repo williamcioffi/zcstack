@@ -1,0 +1,13 @@
+Output from NeEstimator v2.1
+Starting time: Sat Aug 31 23:08:54 2019
+Input File: "globirad3_zcstack_ne_in.txt"
+
+Number of Loci = 26045
+
+LD mating model: Random
+
+Population     1 [sample_lib3_w10_ZTS-13-032]  (Number of Individuals = 10)
+****************
+--------------------------------------------------------------------------
+Lowest Allele Frequency Used     0.050       0.020       0.010         0+
+--------------------------------------------------------------------------

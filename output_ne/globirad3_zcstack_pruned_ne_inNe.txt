@@ -1,0 +1,55 @@
+Output from NeEstimator v2.1
+Starting time: Sat Aug 31 22:59:01 2019
+Input File: "globirad3_zcstack_pruned_ne_in.txt"
+
+Number of Loci = 6985
+
+LD mating model: Random
+
+Population     1 [sample_lib3_w10_ZTS-13-032]  (Number of Individuals = 10)
+****************
+--------------------------------------------------------------------------
+Lowest Allele Frequency Used     0.050       0.020       0.010         0+
+--------------------------------------------------------------------------
+
+LINKAGE DISEQUILIBRIUM METHOD
+
+Harmonic Mean Sample Size =        7.9         7.9         7.9         7.9
+Independent Comparisons =   24257546    24257546    24257546    24257546
+OverAll r^2 =                 0.181002    0.181002    0.181002    0.181002
+Expected r^2 Sample =         0.179040    0.179040    0.179040    0.179040
+Estimated Ne^ =                  155.3       155.3       155.3       155.3
+
+95% CIs for Ne^
+* Parametric                     147.6       147.6       147.6       147.6
+                                 163.9       163.9       163.9       163.9
+
+* JackKnife on Samples            13.4        13.4        13.4        13.4
+                              Infinite    Infinite    Infinite    Infinite
+
+
+HETEROZYGOTE EXCESS METHOD
+
+Harmonic Mean Sample Size =        8.8         8.8         8.8         8.8 
+Independent Alleles =           6985        6985        6985        6985  
+Weighted Mean D =             -0.09395    -0.09395    -0.09395    -0.09395
+Estimated Neb^  =             Infinite    Infinite    Infinite    Infinite
+
+95% CIs for Nb:
+* Parametric                  Infinite    Infinite    Infinite    Infinite
+                              Infinite    Infinite    Infinite    Infinite
+
+MOLECULAR COANCESTRY METHOD
+
+Harmonic Mean Sample Size =                                            8.8
+OverAll f1^    =                                                   0.13217
+Estimated Neb^ =                                                       3.8
+
+95% CIs for Ne^
+* Jackknife on Loci                                                    3.5
+                                                                       4.1
+**************************************************************************
+
+Ending time: Sat Aug 31 23:03:57 2019
+-------------------------------------
+

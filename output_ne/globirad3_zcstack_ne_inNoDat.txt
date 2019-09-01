@@ -1,0 +1,35 @@
+Missing data from input file globirad3_zcstack_ne_in.txt.
+
+Possible four types of missing data at a locus:
+	1. Genotype contains only zeros or partially scored.
+	2. Genotype has less digits than normal one.
+	3. Genotype has more digits than normal one.
+	4. Genotype contains non-digit character.
+Types 3 and 4 stop the program.
+
+In the table, each row is for an individual with missing data
+(a) If column 'Locus' has only one number, then it is the first
+    locus with missing data and also of highest missing data type.
+(b) If column 'Locus' has 2 numbers, then the first number is
+    the first locus with data missing, and the second number is
+    the first locus that has highest missing data type.
+(c) Genotype column contains the genotype of the locus in case (a)
+    or the second locus in case (b).
+
+Population 1 [sample_lib3_w10_ZTS-13-032]
+-----------------------------------------------------------
+Individual       Locus         Genotype     Number of Loci
+                                          with missing data
+       1           40           000000           829
+       2            9           000000          1418
+       3            8           000000           776
+       4            8           000000          1085
+       5           53           000000           797
+       6            4           000000          2178
+       7            1           000000          1070
+       8            6           000000          3126
+       9           60           000000          1265
+      10           26           000000           964
+-----------------------------------------------------------
+Total missing data for population    1:        13508
+
