@@ -25,5 +25,4 @@
 6. run pgdspider to convert genepop files to ped file
 7. run plink -- output raw file for adegenet and ped file for coancestry
 8. convert ped file to coancestry with a custom r script from vjf2
-9. run coancestry
-
+9. run coancestry (genotyping error 0.02)
