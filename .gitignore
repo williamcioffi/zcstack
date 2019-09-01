@@ -1,0 +1,3 @@
+# ignore these large stack files for now
+output_stack/*
+

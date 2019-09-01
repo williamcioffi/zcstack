@@ -1,0 +1,22 @@
+# how to do it
+# on dcc
+
+1. run 01 -- process rad tags / demultiplex
+2. run 02 -- stack
+3. run 03 -- initial populations run
+
+# on local
+
+4. download stacked data and using R make a whitelist for all loci with minimum 10x coverage
+
+# on dcc
+
+5. run 05 -- populations run with whitelist
+
+# on local
+
+6. run pgdspider to convert genepop files to ped file
+7. run plink -- output raw file for adegenet and ped file for coancestry
+8. convert ped file to coancestry with a custom r script from vjf2
+9. run coancestry
+

@@ -1,0 +1,54 @@
+Logging to '/work/wrc14/globirad3_zcstack_working/output_populations/populations.log'.
+Locus/sample distributions will be written to '/work/wrc14/globirad3_zcstack_working/output_populations/populations.log.distribs'.
+populations parameters selected:
+  Percent samples limit per population: 0.7
+  Locus Population limit: 1
+  Log liklihood filtering: off; threshold: 0
+  Minor allele frequency cutoff: 0
+  Maximum observed heterozygosity cutoff: 0.6
+  Applying Fst correction: none.
+  Pi/Fis kernel smoothing: off
+  Fstats kernel smoothing: off
+  Bootstrap resampling: off
+
+A population map was not specified, all samples will be read from '/work/wrc14/globirad3_zcstack_working/output_stack/' as a single popultaion.
+No population map specified, using all samples...
+Working on 10 samples.
+Working on 1 population(s):
+    defaultpop: sample_lib3_w10_ZTS-13-032, sample_lib3_w11_HJF-18-004, sample_lib3_w13_HJF-18-001, sample_lib3_w14_ZTS-15-017, sample_lib3_w15_AJR-18-001, 
+                sample_lib3_w1_HJF-18-003, sample_lib3_w20_HJF-18-002, sample_lib3_w23_ZTS-18-011, sample_lib3_w25_ZTS-15-015, sample_lib3_w6_ZTS-18-012
+Working on 1 group(s) of populations:
+    defaultgrp: defaultpop
+
+SNPs and calls will be written in VCF format to '/work/wrc14/globirad3_zcstack_working/output_populations/populations.snps.vcf'
+Polymorphic sites in GenePop format will be written to '/work/wrc14/globirad3_zcstack_working/output_populations/populations.snps.genepop'
+Genotyping markers will be written to '/work/wrc14/globirad3_zcstack_working/output_populations/populations.markers.tsv'
+Raw Genotypes/Haplotypes will be written to '/work/wrc14/globirad3_zcstack_working/output_populations/populations.haplotypes.tsv'
+Population-level summary statistics will be written to '/work/wrc14/globirad3_zcstack_working/output_populations/populations.sumstats.tsv'
+Population-level haplotype summary statistics will be written to '/work/wrc14/globirad3_zcstack_working/output_populations/populations.hapstats.tsv'
+
+Processing data in batches:
+  * load a batch of catalog loci and apply filters
+  * compute SNP- and haplotype-wise per-population statistics
+  * write the above statistics in the output files
+  * export the genotypes/haplotypes in specified format(s)
+More details in '/work/wrc14/globirad3_zcstack_working/output_populations/populations.log.distribs'.
+Now processing...
+Batch 1 
+Batch 2 
+Batch 3 
+Batch 4 
+Batch 5 
+Batch 6 
+
+Removed 39697 loci that did not pass sample/population constraints from 96267 loci.
+Kept 56570 loci, composed of 5837258 sites; 42661 of those sites were filtered, 29108 variant sites remained.
+Number of loci with PE contig: 56528.00 (99.9%);
+  Mean length of loci: 93.23bp (stderr 0.04);
+Number of loci with SE/PE overlap: 6410.00 (11.3%);
+  Mean length of overlapping loci: 77.15bp (stderr 0.05); mean overlap: 19.63bp (stderr 0.04);
+Mean genotyped sites per locus: 94.33bp (stderr 0.03).
+
+Population summary statistics (more detail in populations.sumstats_summary.tsv):
+  defaultpop: 9.3327 samples per locus; pi: 0.32791; all/variant/polymorphic sites: 5336185/29108/29108; private alleles: 0
+Populations is done.

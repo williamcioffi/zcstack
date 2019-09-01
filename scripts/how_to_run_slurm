@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# send a script to slurm
+
+# -p parition is either common or nsoe-it
+# check what's happening hpcm.oit.duke.edu
+# sbatch -p nsoe-it --account=nsoe-it globirad3_zcstack_denovo_m3.sh
+sbatch -p common globirad3_zcstack_denovo_m3.sh
+

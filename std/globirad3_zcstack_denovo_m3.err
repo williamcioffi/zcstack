@@ -1,0 +1,45 @@
+GCC 5.4.0
+Stacks 2.1
+Parsed population map: 10 files in 1 population and 1 group.
+Found 10 sample file(s).
+
+Indentifying unique stacks...
+  /opt/apps/rhel7/stacks-2.1/bin/ustacks -t gzfastq -f /work/wrc14/globirad3_zcstack_working/fastq/sample_lib3_w10_ZTS-13-032.1.fq.gz -o /work/wrc14/globirad3_zcstack_working/output -i 1 --name sample_lib3_w10_ZTS-13-032 -M 3 -p 12
+  /opt/apps/rhel7/stacks-2.1/bin/ustacks -t gzfastq -f /work/wrc14/globirad3_zcstack_working/fastq/sample_lib3_w25_ZTS-15-015.1.fq.gz -o /work/wrc14/globirad3_zcstack_working/output -i 2 --name sample_lib3_w25_ZTS-15-015 -M 3 -p 12
+  /opt/apps/rhel7/stacks-2.1/bin/ustacks -t gzfastq -f /work/wrc14/globirad3_zcstack_working/fastq/sample_lib3_w14_ZTS-15-017.1.fq.gz -o /work/wrc14/globirad3_zcstack_working/output -i 3 --name sample_lib3_w14_ZTS-15-017 -M 3 -p 12
+  /opt/apps/rhel7/stacks-2.1/bin/ustacks -t gzfastq -f /work/wrc14/globirad3_zcstack_working/fastq/sample_lib3_w13_HJF-18-001.1.fq.gz -o /work/wrc14/globirad3_zcstack_working/output -i 4 --name sample_lib3_w13_HJF-18-001 -M 3 -p 12
+  /opt/apps/rhel7/stacks-2.1/bin/ustacks -t gzfastq -f /work/wrc14/globirad3_zcstack_working/fastq/sample_lib3_w6_ZTS-18-012.1.fq.gz -o /work/wrc14/globirad3_zcstack_working/output -i 5 --name sample_lib3_w6_ZTS-18-012 -M 3 -p 12
+  /opt/apps/rhel7/stacks-2.1/bin/ustacks -t gzfastq -f /work/wrc14/globirad3_zcstack_working/fastq/sample_lib3_w20_HJF-18-002.1.fq.gz -o /work/wrc14/globirad3_zcstack_working/output -i 6 --name sample_lib3_w20_HJF-18-002 -M 3 -p 12
+  /opt/apps/rhel7/stacks-2.1/bin/ustacks -t gzfastq -f /work/wrc14/globirad3_zcstack_working/fastq/sample_lib3_w1_HJF-18-003.1.fq.gz -o /work/wrc14/globirad3_zcstack_working/output -i 7 --name sample_lib3_w1_HJF-18-003 -M 3 -p 12
+  /opt/apps/rhel7/stacks-2.1/bin/ustacks -t gzfastq -f /work/wrc14/globirad3_zcstack_working/fastq/sample_lib3_w11_HJF-18-004.1.fq.gz -o /work/wrc14/globirad3_zcstack_working/output -i 8 --name sample_lib3_w11_HJF-18-004 -M 3 -p 12
+  /opt/apps/rhel7/stacks-2.1/bin/ustacks -t gzfastq -f /work/wrc14/globirad3_zcstack_working/fastq/sample_lib3_w15_AJR-18-001.1.fq.gz -o /work/wrc14/globirad3_zcstack_working/output -i 9 --name sample_lib3_w15_AJR-18-001 -M 3 -p 12
+  /opt/apps/rhel7/stacks-2.1/bin/ustacks -t gzfastq -f /work/wrc14/globirad3_zcstack_working/fastq/sample_lib3_w23_ZTS-18-011.1.fq.gz -o /work/wrc14/globirad3_zcstack_working/output -i 10 --name sample_lib3_w23_ZTS-18-011 -M 3 -p 12
+
+Depths of Coverage for Processed Samples:
+sample_lib3_w10_ZTS-13-032: 35.87x
+sample_lib3_w25_ZTS-15-015: 19.21x
+sample_lib3_w14_ZTS-15-017: 27.01x
+sample_lib3_w13_HJF-18-001: 36.66x
+sample_lib3_w6_ZTS-18-012: 21.84x
+sample_lib3_w20_HJF-18-002: 28.14x
+sample_lib3_w1_HJF-18-003: 13.73x
+sample_lib3_w11_HJF-18-004: 20.88x
+sample_lib3_w15_AJR-18-001: 42.56x
+sample_lib3_w23_ZTS-18-011: 20.75x
+
+Generating catalog...
+  /opt/apps/rhel7/stacks-2.1/bin/cstacks -P /work/wrc14/globirad3_zcstack_working/output -n 3 -M /work/wrc14/globirad3_zcstack_working/meta/globirad3_zcstack_popmap -p 12
+
+Matching samples to the catalog...
+  /opt/apps/rhel7/stacks-2.1/bin/sstacks -P /work/wrc14/globirad3_zcstack_working/output -M /work/wrc14/globirad3_zcstack_working/meta/globirad3_zcstack_popmap -p 12
+
+Sorting reads by RAD locus...
+  /opt/apps/rhel7/stacks-2.1/bin/tsv2bam -P /work/wrc14/globirad3_zcstack_working/output  -M /work/wrc14/globirad3_zcstack_working/meta/globirad3_zcstack_popmap -t 12 -R /work/wrc14/globirad3_zcstack_working/fastq/
+
+Calling variants, genotypes and haplotypes...
+  /opt/apps/rhel7/stacks-2.1/bin/gstacks -P /work/wrc14/globirad3_zcstack_working/output -M /work/wrc14/globirad3_zcstack_working/meta/globirad3_zcstack_popmap -t 12
+
+Calculating population-level summary statistics
+  /opt/apps/rhel7/stacks-2.1/bin/populations -P /work/wrc14/globirad3_zcstack_working/output -M /work/wrc14/globirad3_zcstack_working/meta/globirad3_zcstack_popmap -t 12
+
+denovo_map.pl is done.
