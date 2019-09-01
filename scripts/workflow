@@ -1,3 +1,10 @@
+# what you need
+- stacks 2.1
+- plink 1.9
+- pgdspider
+- coancestry
+- R, bash, bat scripts
+
 # how to do it
 # on dcc
 
@@ -7,7 +14,7 @@
 
 # on local
 
-4. download stacked data and using R make a whitelist for all loci with minimum 10x coverage
+4. run 04 -- 10x whitelist
 
 # on dcc
 
