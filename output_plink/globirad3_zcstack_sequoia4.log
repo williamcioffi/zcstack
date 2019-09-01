@@ -1,0 +1,55 @@
+PLINK v1.90b6.10 64-bit (17 Jun 2019)
+Options in effect:
+  --allow-extra-chr
+  --file C:\Users\wrc14\Desktop\git\zcstack\output_pgdspider\globirad3_zcstack_populations.snps
+  --hwe 0.05 midp
+  --indep 50 5 2
+  --maf 0.4
+  --nonfounders
+  --noweb
+  --out C:\Users\wrc14\Desktop\git\zcstack\output_plink\globirad3_zcstack_sequoia4
+
+Hostname: DESKTOP-ODC2OGH
+Working directory: C:\Users\wrc14
+Start time: Sat Aug 31 21:56:28 2019
+
+Note: --noweb has no effect since no web check is implemented yet.
+Random number seed: 1567313788
+12191 MB RAM detected; reserving 6095 MB for main workspace.
+Scanning .ped file...
+Possibly irregular .ped line.  Restarting scan, assuming multichar alleles.
+.ped scan complete (for binary autoconversion).
+Performing single-pass .bed write (26045 variants, 10 people).
+--file:
+C:\Users\wrc14\Desktop\git\zcstack\output_plink\globirad3_zcstack_sequoia4-temporary.bed
++
+C:\Users\wrc14\Desktop\git\zcstack\output_plink\globirad3_zcstack_sequoia4-temporary.bim
++
+C:\Users\wrc14\Desktop\git\zcstack\output_plink\globirad3_zcstack_sequoia4-temporary.fam
+written.
+26045 variants loaded from .bim file.
+10 people (0 males, 0 females, 10 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+C:\Users\wrc14\Desktop\git\zcstack\output_plink\globirad3_zcstack_sequoia4.nosex
+.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 10 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.948136.
+Warning: --hwe observation counts vary by more than 10%.  Consider using
+--geno, and/or applying different p-value thresholds to distinct subsets of
+your data.
+--hwe: 3304 variants removed due to Hardy-Weinberg exact test.
+20082 variants removed due to minor allele threshold(s)
+(--maf/--max-maf/--mac/--max-mac).
+2659 variants and 10 people pass filters and QC.
+Note: No phenotypes present.
+Pruned 1769 variants from chromosome 1, leaving 890.
+Pruning complete.  1769 of 2659 variants removed.
+Marker lists written to
+C:\Users\wrc14\Desktop\git\zcstack\output_plink\globirad3_zcstack_sequoia4.prune.in
+and
+C:\Users\wrc14\Desktop\git\zcstack\output_plink\globirad3_zcstack_sequoia4.prune.out
+.
+
+End time: Sat Aug 31 21:56:28 2019

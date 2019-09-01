@@ -1,0 +1,38 @@
+PLINK v1.90b6.10 64-bit (17 Jun 2019)
+Options in effect:
+  --allow-extra-chr
+  --file C:\Users\wrc14\Desktop\git\zcstack\output_plink\globirad3_zcstack_populations_pruned
+  --freq
+  --out C:\Users\wrc14\Desktop\git\zcstack\output_plink\globirad3_zcstack_populations_pruned
+
+Hostname: DESKTOP-ODC2OGH
+Working directory: C:\Users\wrc14
+Start time: Sat Aug 31 21:55:01 2019
+
+Random number seed: 1567313701
+12191 MB RAM detected; reserving 6095 MB for main workspace.
+Scanning .ped file...
+Possibly irregular .ped line.  Restarting scan, assuming multichar alleles.
+.ped scan complete (for binary autoconversion).
+Performing single-pass .bed write (6985 variants, 10 people).
+--file:
+C:\Users\wrc14\Desktop\git\zcstack\output_plink\globirad3_zcstack_populations_pruned-temporary.bed
++
+C:\Users\wrc14\Desktop\git\zcstack\output_plink\globirad3_zcstack_populations_pruned-temporary.bim
++
+C:\Users\wrc14\Desktop\git\zcstack\output_plink\globirad3_zcstack_populations_pruned-temporary.fam
+written.
+6985 variants loaded from .bim file.
+10 people (0 males, 0 females, 10 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+C:\Users\wrc14\Desktop\git\zcstack\output_plink\globirad3_zcstack_populations_pruned.nosex
+.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 10 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.895104.
+--freq: Allele frequencies (founders only) written to
+C:\Users\wrc14\Desktop\git\zcstack\output_plink\globirad3_zcstack_populations_pruned.frq
+.
+
+End time: Sat Aug 31 21:55:01 2019
