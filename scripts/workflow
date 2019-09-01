@@ -3,6 +3,7 @@
 - plink 1.9
 - pgdspider 2.1.1.5
 - coancestry
+- ne estimator 2.1
 - R, bash, bat scripts
 
 # how to do it
@@ -26,3 +27,4 @@
 7. run plink -- output raw file for adegenet and ped file for coancestry
 8. convert ped file to coancestry with a custom r script from vjf2
 9. run coancestry (genotyping error 0.02)
+10. run ne estimator
